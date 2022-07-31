@@ -7,8 +7,8 @@
 停诊无法及时通知。
 
 ## 计划
- []UI交互的科室代码和医生代码填写：  
- []科室代码及科室内专病门诊等细分代码https://tjhapp.com.cn:8013/KsYs/getKsList  
- []科室医生排班信息（schedule信息不可信）https://tjhapp.com.cn:8013/KsYs/doctorPaiBanOfKs  
- []更多预约状态的响应：未开、停诊等  
- []自动化挂号（无破解网易验证码能力，目前需要手动完成该步骤）
+[] UI交互的科室代码和医生代码填写：  
+[] 科室代码及科室内专病门诊等细分代码https://tjhapp.com.cn:8013/KsYs/getKsList  
+[] 科室医生排班信息（schedule信息不可信）https://tjhapp.com.cn:8013/KsYs/doctorPaiBanOfKs  
+[] 更多预约状态的响应：未开、停诊等  
+[] 自动化挂号（无破解网易验证码能力，目前需要手动完成该步骤）
