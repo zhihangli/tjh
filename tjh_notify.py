@@ -100,7 +100,6 @@ def precision_status(r_tj):
         title = '%s%s%s%s有可预约的专家号'%(param_set.get("reqdate"),r_tj['datainfo']['doctorName'],data[0,r][0],data[1,r][0])
         content = '医生：%s\n%s'%(r_tj['datainfo']['doctorName'],data.T)
         pushplus_bot(title,content,param_set.get('PUSH_PLUS_TOKEN'))
-        pushplus_bot(title,content,param_set.get('PUSH_PLUS_TOKEN_L'))
         result = '可预约'
     else:
         result = '号满'
@@ -131,7 +130,6 @@ def check_status(r_tj):
         title = '%s有可预约的专家号'%(r_tj['datainfo']['doctorName'])
         content = '医生：%s\n%s'%(r_tj['datainfo']['doctorName'],data.T)
         pushplus_bot(title,content,param_set.get('PUSH_PLUS_TOKEN'))
-        pushplus_bot(title,content,param_set.get('PUSH_PLUS_TOKEN_L'))
         result = '可预约'
     else:
         result = '号满'
